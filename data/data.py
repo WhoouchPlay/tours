@@ -7,13 +7,13 @@ departures = {"kyiv": " з Києва", "lviv": " зі Львова", "odesa": "
 tours = {
     1: {
         "title": "Закарпаття",
-        "description": "затишний готель.",
+        "description": "Затишний готель.",
         "departure": "kyiv",
         "picture": "https://zahidkurort.com.ua/wp-content/themes/kurort/cache/45/03cd84cf64a6145_1013x532.jpg",
         "price": 62000,
         "stars": "4",
         "country": "Пилипець",
-        "nights": 6,
+        "nights": "6 ночей",
         "date": "2 березня",
     },
     2: {
@@ -22,7 +22,7 @@ tours = {
         "departure": "lviv",
         "picture": "https://bukovel-hotel-ua.hotelmix.com.ua/data/Photos/OriginalPhoto/11709/1170996/1170996471/Bukovel-Hotel-Exterior.JPEG",
         "price": 85000,
-        "stars": "5",
+        "stars": "5 ночей",
         "country": "Буковель",
         "nights": 8,
         "date": "12 січня",
@@ -35,7 +35,7 @@ tours = {
         "price": 63000,
         "stars": "3",
         "country": "Косів",
-        "nights": 11,
+        "nights": "11 ночей",
         "date": "7 лютого",
     },
     4: {
@@ -46,7 +46,7 @@ tours = {
         "price": 62000,
         "stars": "4",
         "country": "Космач",
-        "nights": 9,
+        "nights": "9 ночей",
         "date": "22 жовтня",
     },
     5: {
@@ -57,7 +57,7 @@ tours = {
         "price": 68000,
         "stars": "4",
         "country": "<Бакота>",
-        "nights": 8,
+        "nights": "8 ночей",
         "date": "18 вересня",
     },
     6: {
@@ -68,7 +68,7 @@ tours = {
         "price": 53000,
         "stars": "3",
         "country": "Синевір",
-        "nights": 13,
+        "nights": "13 ночей",
         "date": "15 серпня",
     },
     7: {
@@ -79,7 +79,7 @@ tours = {
         "price": 72000,
         "stars": "5",
         "country": "Дземброня",
-        "nights": 9,
+        "nights": "9 ночей",
         "date": "22 липня",
     },
     8: {
@@ -90,7 +90,7 @@ tours = {
         "price": 44000,
         "stars": "4",
         "country": "Велятино",
-        "nights": 7,
+        "nights": "7 ночей",
         "date": "21 січня",
     },
 

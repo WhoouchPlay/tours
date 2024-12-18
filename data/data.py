@@ -43,7 +43,7 @@ tours = {
         "description": "Красивий краєвид з вікна",
         "departure": "kyiv",
         "picture": "https://karpatskyi-teremok-dzembronia.hotelmix.com.ua/data/Photos/OriginalPhoto/12654/1265492/1265492017/Karpatskyi-Teremok-Exterior.JPEG",
-        "price": 62000,
+        "price": 620000,
         "stars": "4",
         "country": "Космач",
         "nights": "9 ночей",

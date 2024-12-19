@@ -2,7 +2,7 @@ from flask_wtf import FlaskForm
 import wtforms
 
 
-class SingUpFord(FlaskForm):
+class SignUpForm(FlaskForm):
     username = wtforms.StringField("Введіть логін", validators=[wtforms.validators.DataRequired()])
     email = wtforms.EmailField("Введіть свою електронну почту", validators=[wtforms.validators.DataRequired(), wtforms.validators.Email()])
     password = wtforms.PasswordField("Пароль", validators=[wtforms.validators.DataRequired(), wtforms.validators.length(8)])

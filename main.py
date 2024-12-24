@@ -1,7 +1,7 @@
 import os
 import binascii
 
-from flask import Flask, request, redirect, url_for, render_template, flash
+from flask import Flask, redirect, url_for, render_template, flash
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 from sqlalchemy import or_
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -102,6 +102,23 @@ def logout():
     flash("До побачення.")
     logout_user()
     return redirect(url_for("index"))
+
+
+@app.get("/reserve/<int:tour_id>/")
+@login_required
+def reserve(tour_id: int):
+    with Session() as session:
+        tour = session.query(Tour).where(Tour.id == tour_id).first()
+        current_user.tours.append(tour)
+        flash("Тур успішно заброньовано")
+        return redirect(url_for("cabinet"))
+
+
+@app.get("/cabinet/")
+@login_required
+def cabinet():
+    with Session() as session:
+        return render_template("cabinet.html", tours=current_user.tours)
 
 
 if __name__ == "__main__":

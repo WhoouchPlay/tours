@@ -4,7 +4,7 @@ import wtforms
 
 class SignUpForm(FlaskForm):
     username = wtforms.StringField("Введіть логін", validators=[wtforms.validators.DataRequired()])
-    email = wtforms.EmailField("Введіть свою електронну почту", validators=[wtforms.validators.DataRequired(), wtforms.validators.Email()])
+    email = wtforms.EmailField("Введіть свою електронну пошту", validators=[wtforms.validators.DataRequired(), wtforms.validators.Email()])
     password = wtforms.PasswordField("Пароль", validators=[wtforms.validators.DataRequired(), wtforms.validators.length(8)])
     submit = wtforms.SubmitField("Зареєструватись")
 

@@ -7,7 +7,7 @@ departures = {"kyiv": " з Києва", "lviv": " зі Львова", "odesa": "
 tours = {
     1: {
         "title": "Закарпаття",
-        "description": "Затишний готель.",
+        "description": "затишний готель.",
         "departure": "kyiv",
         "picture": "https://zahidkurort.com.ua/wp-content/themes/kurort/cache/45/03cd84cf64a6145_1013x532.jpg",
         "price": 62000,
@@ -22,9 +22,9 @@ tours = {
         "departure": "lviv",
         "picture": "https://bukovel-hotel-ua.hotelmix.com.ua/data/Photos/OriginalPhoto/11709/1170996/1170996471/Bukovel-Hotel-Exterior.JPEG",
         "price": 85000,
-        "stars": "5 ночей",
+        "stars": "5",
         "country": "Буковель",
-        "nights": 8,
+        "nights": "8 ночей",
         "date": "12 січня",
     },
     3: {
@@ -43,7 +43,7 @@ tours = {
         "description": "Красивий краєвид з вікна",
         "departure": "kyiv",
         "picture": "https://karpatskyi-teremok-dzembronia.hotelmix.com.ua/data/Photos/OriginalPhoto/12654/1265492/1265492017/Karpatskyi-Teremok-Exterior.JPEG",
-        "price": 620000,
+        "price": 62000,
         "stars": "4",
         "country": "Космач",
         "nights": "9 ночей",
